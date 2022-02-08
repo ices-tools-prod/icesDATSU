@@ -3,6 +3,7 @@
 export(datsu_api)
 export(getDataFieldsDescription)
 export(getDataverIDs)
+export(getMySessionsList)
 export(getRecordIDs)
 export(getScreeningSessionDetails)
 export(getScreeningSessionMessages)

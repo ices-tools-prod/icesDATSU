@@ -1,5 +1,5 @@
 Package: icesDatsu
-Version: 0.0.0.9001
+Version: 0.0.0.9002
 Title: Functions to interact with the ICES Data Checking Utility (DATSU)
 Authors@R: person("Colin", "Millar", role=c("aut","cre"), email="colin.millar@ices.dk")
 Description: Functions to interact with the ICES Data Checking Utility (DATSU).
