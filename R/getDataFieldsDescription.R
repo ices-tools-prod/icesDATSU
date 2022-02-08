@@ -15,8 +15,8 @@
 #' getDataFieldsDescription(145, "VE")
 #'
 #' @export
-getDataFieldsDescription <- function(datasetverID, recordType) {
-  if (missing(recordType)) {
+getDataFieldsDescription <- function(datasetverID, recordType = NULL) {
+  if (is.null(recordType)) {
     url <-
       datsu_api(
         paste0("getDataFieldsDescription/", datasetverID)

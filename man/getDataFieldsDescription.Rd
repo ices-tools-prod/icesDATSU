@@ -4,7 +4,7 @@
 \alias{getDataFieldsDescription}
 \title{get list of datasets}
 \usage{
-getDataFieldsDescription(datasetverID, recordType)
+getDataFieldsDescription(datasetverID, recordType = NULL)
 }
 \arguments{
 \item{datasetverID}{the dataset ID}
