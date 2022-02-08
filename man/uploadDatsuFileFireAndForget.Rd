@@ -6,27 +6,37 @@
 \usage{
 uploadDatsuFileFireAndForget(
   fileToUpload,
-  emailAddress,
   dataSetVerID,
+  emailAddress = NULL,
   sendEmail = TRUE,
-  errorLimit = 30000
+  errorLimit = 30000,
+  verbose = FALSE
 )
 }
 \arguments{
 \item{fileToUpload}{(stream accepted as IFormFile, part of the body of the request)}
 
-\item{emailAddress}{email address of the user}
-
 \item{dataSetVerID}{The version of the dataset}
+
+\item{emailAddress}{alternative email address of the user, if NULL, email address from ICES token
+is used}
 
 \item{sendEmail}{it is set to TRUE by default, this will specify if the user will to receive an
 email when the session is finished}
 
 \item{errorLimit}{does not need to be specified, it is 30000 by default}
+
+\item{verbose}{get verbose output from the POST request, default FALSE}
 }
 \value{
 The ID of the DATSU session
 }
 \description{
 This API allows the user to screen a file using the API.
+}
+\examples{
+
+filename <- system.file("test_files/vms_test.csv", package = "icesDatsu")
+uploadDatsuFileFireAndForget(filename, 145)
+
 }
