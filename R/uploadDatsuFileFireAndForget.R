@@ -21,10 +21,11 @@
 #' @export
 #' @importFrom httr upload_file content
 #' @importFrom jsonlite toJSON
+#' @importFrom icesConnect decode_token
 uploadDatsuFileFireAndForget <- function(fileToUpload, dataSetVerID, emailAddress = NULL, sendEmail = TRUE, errorLimit = 30000, verbose = FALSE) {
 
   if (is.null(emailAddress)) {
-    emailAddress <- icesConnect::decode_token()$UserEmail
+    emailAddress <- decode_token()$UserEmail
   }
 
   # form content
@@ -32,9 +33,9 @@ uploadDatsuFileFireAndForget <- function(fileToUpload, dataSetVerID, emailAddres
     list(
       fileToUpload = upload_file(fileToUpload),
       EmailAddress = emailAddress,
-      DataSetVerID = dataSetVerID#,
-#      SendEmail = sendEmail,
-#      ErrorLimit = errorLimit
+      DataSetVerID = dataSetVerID,
+      SendEmail = sendEmail,
+      ErrorLimit = errorLimit
     )
 
   # perform request
