@@ -15,9 +15,10 @@
 #'
 #' @examples
 #'
+#' \dontrun{
 #' filename <- system.file("test_files/vms_test.csv", package = "icesDatsu")
 #' uploadDatsuFileFireAndForget(filename, 145)
-#'
+#' }
 #' @export
 #' @importFrom httr upload_file content
 #' @importFrom jsonlite toJSON
@@ -44,7 +45,8 @@ uploadDatsuFileFireAndForget <- function(fileToUpload, dataSetVerID, emailAddres
         SendEmail = sendEmail,
         ErrorLimit = errorLimit
       ),
-      body = body, retry = TRUE, verbose = verbose
+      body = body, retry = TRUE, verbose = verbose,
+      use_token = TRUE
     )
 
   # get results

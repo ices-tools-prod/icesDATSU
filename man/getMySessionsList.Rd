@@ -14,5 +14,7 @@ This API of the webservice returns a list of the sesisons for the authenticated 
 }
 \examples{
 
+\donttest{
 getMySessionsList()
+}
 }

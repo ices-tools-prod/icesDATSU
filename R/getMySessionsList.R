@@ -6,12 +6,14 @@
 #'
 #' @examples
 #'
+#' \donttest{
 #' getMySessionsList()
+#' }
 #' @export
 getMySessionsList <- function() {
   url <- datsu_api("getMySessionsList")
 
-  out <- datsu_get(url)
+  out <- datsu_get(url, use_token = TRUE)
 
   out
 }
