@@ -31,17 +31,19 @@ uploadDatsuFileFireAndForget <- function(fileToUpload, dataSetVerID, emailAddres
   # form content
   body <-
     list(
-      fileToUpload = upload_file(fileToUpload),
-      EmailAddress = emailAddress,
-      DataSetVerID = dataSetVerID,
-      SendEmail = sendEmail,
-      ErrorLimit = errorLimit
+      fileToUpload = upload_file(fileToUpload)
     )
 
   # perform request
   resp <-
     datsu_post(
-      datsu_api("UploadDATSUFileFireAndForget"),
+      datsu_api(
+        "UploadDATSUFileFireAndForget",
+        EmailAddress = emailAddress,
+        DataSetVerID = dataSetVerID,
+        SendEmail = sendEmail,
+        ErrorLimit = errorLimit
+      ),
       body = body, retry = TRUE, verbose = verbose
     )
 
