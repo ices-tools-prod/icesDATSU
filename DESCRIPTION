@@ -12,3 +12,4 @@ Imports: icesConnect (>= 1.0.0),
           jsonlite,
           icesVocab
 Encoding: UTF-8
+BugReports: https://github.com/ices-tools-prod/icesDatsu/issues
