@@ -16,7 +16,7 @@ List of the supported records for the specified records
 A list of the available records for the specified format
 }
 \examples{
-
+\donttest{
 getRecordIDs(145)
-
+}
 }

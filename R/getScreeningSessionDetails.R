@@ -7,9 +7,9 @@
 #' @return Details of the session
 #'
 #' @examples
-#'
+#' \donttest{
 #' getScreeningSessionDetails(10)
-#'
+#' }
 #' @export
 getScreeningSessionDetails <- function(sessionID) {
   url <- datsu_api(

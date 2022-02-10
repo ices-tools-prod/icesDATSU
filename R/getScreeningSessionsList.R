@@ -9,10 +9,10 @@
 #' @return The details of the sessions
 #'
 #' @examples
-#'
+#' \donttest{
 #' getScreeningSessionsList(145)
 #' getScreeningSessionsList(145, year = 2020)
-#'
+#' }
 #' @export
 getScreeningSessionsList <- function(dataSetVerID, year = NULL, country = NULL) {
   url <- datsu_api(

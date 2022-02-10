@@ -6,7 +6,7 @@
 #'
 #' @examples
 #'
-#' \donttest{
+#' \dontrun{
 #' getMySessionsList()
 #' }
 #' @export

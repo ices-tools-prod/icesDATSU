@@ -11,9 +11,10 @@
 #'
 #' @examples
 #'
+#' \donttest{
 #' getDataFieldsDescription(145)
 #' getDataFieldsDescription(145, "VE")
-#'
+#' }
 #' @export
 getDataFieldsDescription <- function(datasetverID, recordType = NULL) {
   if (is.null(recordType)) {

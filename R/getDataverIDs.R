@@ -5,10 +5,10 @@
 #' @return The list of Datasets that can be screened in DATSU with the IDs
 #'
 #' @examples
-#'
+#' \donttest{
 #' formats <- getDataverIDs()
 #' formats[grep("vms", tolower(formats$description)), ]
-#'
+#'}
 #' @export
 getDataverIDs <- function() {
   url <- datsu_api("getDataverIDs")

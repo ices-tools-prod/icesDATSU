@@ -21,7 +21,8 @@ vocabulary.
 }
 \examples{
 
+\donttest{
 getDataFieldsDescription(145)
 getDataFieldsDescription(145, "VE")
-
+}
 }

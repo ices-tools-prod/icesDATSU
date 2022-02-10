@@ -7,9 +7,9 @@
 #' @return List of the messages for the specified session
 #'
 #' @examples
-#'
+#' \donttest{
 #' messages <- getScreeningSessionMessages(10)
-#'
+#' }
 #' @export
 getScreeningSessionMessages <- function(sessionID) {
   url <- datsu_api(

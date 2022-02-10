@@ -16,7 +16,7 @@ List of the messages for the specified session
 A list of the messages for the specified sessionID
 }
 \examples{
-
+\donttest{
 messages <- getScreeningSessionMessages(10)
-
+}
 }
