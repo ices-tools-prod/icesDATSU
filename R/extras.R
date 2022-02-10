@@ -16,13 +16,17 @@ datsuFieldTypes <- function(datasetverID, RecordType) {
   fieldType <- gsub("[(][0-9]*[)]", "", datsuFields$name)
   mode <-
     ifelse(
-      fieldType %in% c("nvarchar", "char"), "character",
+      fieldType %in% c("nvarchar", "varchar", "char", "ntext", "text"), "character",
       ifelse(
-        fieldType == "int", "integer",
+        fieldType %in% c("int", "numeric"), "integer",
         ifelse(
           fieldType == "float",
           "numeric",
-          "unknown"
+          ifelse(
+            fieldType == "datetime",
+            "character",
+            "unknown"
+          )
         )
       )
     )
@@ -62,7 +66,7 @@ datsuHasVocabulary <- function(datasetverID, RecordType, FieldName = NULL) {
 
 #
 #
-# datsuGetVocabulary(145, "VE", "AverageVesselLength")
+# datsuGetVocabulary(145, "VE", "VesselLengthRange")
 datsuGetVocabulary <- function(datasetverID, RecordType, FieldName = NULL) {
   datsuFields <- getDataFieldsDescription(datasetverID, RecordType)
 
@@ -74,6 +78,7 @@ datsuGetVocabulary <- function(datasetverID, RecordType, FieldName = NULL) {
 
   codeList <- icesVocab::getCodeList(codeType)
 
+  message("This is the full vocabulary, some entries may not be valid for your dataset")
   codeList[!codeList$Deprecated, "Key"]
 }
 
