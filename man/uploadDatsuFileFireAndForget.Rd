@@ -39,5 +39,6 @@ This API allows the user to screen a file using the API.
 \dontrun{
 filename <- system.file("test_files/vms_test.csv", package = "icesDatsu")
 uploadDatsuFileFireAndForget(filename, 145)
+uploadDatsuFileFireAndForget(filename, 145, sendEmail = FALSE)
 }
 }
