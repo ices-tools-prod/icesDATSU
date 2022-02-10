@@ -1,8 +1,8 @@
 Package: icesDatsu
 Version: 1.0.0
-Title: Functions to Interact with the ICES Data Submision Utility (DATSU)
+Title: Functions to Interact with the ICES Data Submission Utility (DATSU)
 Authors@R: person("Colin", "Millar", role=c("aut","cre"), email="colin.millar@ices.dk")
-Description: Functions to Interact with the ICES Data Checking Utility (DATSU).
+Description: Functions to Interact with the ICES Data Submission Utility (DATSU).
 License: GPL (>= 2)
 RoxygenNote: 7.1.2
 Suggests: knitr,
@@ -11,4 +11,5 @@ Imports: icesConnect (>= 1.0.0),
           httr,
           jsonlite
 Encoding: UTF-8
+Url: https://datsu.ices.dk/web/index.aspx, https://github.com/ices-tools-prod/icesDatsu
 BugReports: https://github.com/ices-tools-prod/icesDatsu/issues
