@@ -11,5 +11,4 @@ Imports: icesConnect,
           httr,
           jsonlite,
           icesVocab
-VignetteBuilder: knitr
 Encoding: UTF-8
