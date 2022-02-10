@@ -18,6 +18,7 @@
 #' \dontrun{
 #' filename <- system.file("test_files/vms_test.csv", package = "icesDatsu")
 #' uploadDatsuFileFireAndForget(filename, 145)
+#' uploadDatsuFileFireAndForget(filename, 145, sendEmail = FALSE)
 #' }
 #' @export
 #' @importFrom httr upload_file content
@@ -26,7 +27,7 @@
 uploadDatsuFileFireAndForget <- function(fileToUpload, dataSetVerID, emailAddress = NULL, sendEmail = TRUE, errorLimit = 30000, verbose = FALSE) {
 
   if (is.null(emailAddress)) {
-    emailAddress <- decode_token()$UserEmail
+    emailAddress <- decode_token()$email
   }
 
   # form content
