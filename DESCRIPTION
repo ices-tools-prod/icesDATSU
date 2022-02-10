@@ -9,7 +9,6 @@ Suggests: knitr,
           rmarkdown
 Imports: icesConnect (>= 1.0.0),
           httr,
-          jsonlite,
-          icesVocab
+          jsonlite
 Encoding: UTF-8
 BugReports: https://github.com/ices-tools-prod/icesDatsu/issues
