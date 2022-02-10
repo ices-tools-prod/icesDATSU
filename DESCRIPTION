@@ -7,7 +7,7 @@ License: GPL (>= 2)
 RoxygenNote: 7.1.2
 Suggests: knitr,
           rmarkdown
-Imports: icesConnect,
+Imports: icesConnect (>= 1.0.0),
           httr,
           jsonlite,
           icesVocab
