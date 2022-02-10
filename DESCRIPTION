@@ -11,5 +11,5 @@ Imports: icesConnect (>= 1.0.0),
           httr,
           jsonlite
 Encoding: UTF-8
-Url: https://datsu.ices.dk/web/index.aspx, https://github.com/ices-tools-prod/icesDatsu
+URL: https://datsu.ices.dk/web/index.aspx, https://github.com/ices-tools-prod/icesDatsu
 BugReports: https://github.com/ices-tools-prod/icesDatsu/issues
