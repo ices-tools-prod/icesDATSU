@@ -16,7 +16,7 @@ List of the supported records and fields.
 }
 \description{
 A list of the available fields for the specified format and record (optional filter).
-in this list it is specified the field type, if it is mandatory and if it is linked wiht any
+in this list it is specified the field type, if it is mandatory and if it is linked with any
 vocabulary.
 }
 \examples{

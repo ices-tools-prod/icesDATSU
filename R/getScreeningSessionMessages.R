@@ -1,6 +1,6 @@
 #' get screening session messages
 #'
-#' A list of the messages for the specified sessionID
+#' A list of the messages for the specified session ID
 #'
 #' @param sessionID the session ID
 #'

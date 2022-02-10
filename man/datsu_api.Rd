@@ -2,7 +2,7 @@
 % Please edit documentation in R/datsu_api.R
 \name{datsu_api}
 \alias{datsu_api}
-\title{Build the api url for given service}
+\title{Build a DATSU web service url}
 \usage{
 datsu_api(service, ...)
 }
@@ -12,7 +12,7 @@ datsu_api(service, ...)
 \item{...}{name arguments will be added as queries}
 }
 \description{
-utility to build an api url with optional query arguemnts
+utility to build a url with optional query arguments
 }
 \examples{
 

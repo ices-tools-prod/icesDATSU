@@ -13,7 +13,7 @@ getScreeningSessionMessages(sessionID)
 List of the messages for the specified session
 }
 \description{
-A list of the messages for the specified sessionID
+A list of the messages for the specified session ID
 }
 \examples{
 \donttest{

@@ -10,7 +10,7 @@ getMySessionsList()
 The details of the users sessions
 }
 \description{
-This API of the webservice returns a list of the sesisons for the authenticated user.
+This API of the web service returns a list of the sessions for the authenticated user.
 }
 \examples{
 

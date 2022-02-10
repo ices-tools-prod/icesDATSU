@@ -1,6 +1,6 @@
-#' Build the api url for given service
+#' Build a DATSU web service url
 #'
-#' utility to build an api url with optional query arguemnts
+#' utility to build a url with optional query arguments
 #'
 #' @param service the name of the service
 #' @param ... name arguments will be added as queries
@@ -9,7 +9,7 @@
 #'
 #' datsu_api("hi", bye = 21)
 #' datsu_api("getDataverIDs")
-#' 
+#'
 #' @export
 #' @importFrom httr parse_url build_url GET
 datsu_api <- function(service, ...) {

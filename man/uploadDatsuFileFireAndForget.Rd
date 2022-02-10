@@ -14,7 +14,7 @@ uploadDatsuFileFireAndForget(
 )
 }
 \arguments{
-\item{fileToUpload}{(stream accepted as IFormFile, part of the body of the request)}
+\item{fileToUpload}{the filename of the file to upload}
 
 \item{dataSetVerID}{The version of the dataset}
 

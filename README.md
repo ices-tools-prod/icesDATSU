@@ -1,7 +1,7 @@
 
 [<img align="right" alt="ICES Logo" width="17%" height="17%" src="http://www.ices.dk/_layouts/15/1033/images/icesimg/iceslogo.png">](http://www.ices.dk/Pages/default.aspx)
 
-# icesSDatsu
+# icesDatsu
 
 icesDatsu provides helper functions to access the ICES Data checking
 utility [DATSU](http://datsu.ices.dk/).

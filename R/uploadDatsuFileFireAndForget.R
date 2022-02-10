@@ -2,7 +2,7 @@
 #'
 #' This API allows the user to screen a file using the API.
 #'
-#' @param fileToUpload (stream accepted as IFormFile, part of the body of the request)
+#' @param fileToUpload the filename of the file to upload
 #' @param dataSetVerID The version of the dataset
 #' @param emailAddress alternative email address of the user, if NULL, email address from ICES token
 #'   is used
