@@ -8,3 +8,8 @@
 0 errors | 0 warnings | 1 note
 
 * This is a new release.
+
+## Notes
+
+* URL added to description feild in DESCRIPTION
+* Value tag added to datsu_api.Rd

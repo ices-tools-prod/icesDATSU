@@ -5,6 +5,8 @@
 #' @param service the name of the service
 #' @param ... name arguments will be added as queries
 #'
+#' @return a complete url as a character string
+#'
 #' @examples
 #'
 #' datsu_api("hi", bye = 21)

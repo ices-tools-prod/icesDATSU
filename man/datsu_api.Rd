@@ -11,6 +11,9 @@ datsu_api(service, ...)
 
 \item{...}{name arguments will be added as queries}
 }
+\value{
+a complete url as a character string
+}
 \description{
 utility to build a url with optional query arguments
 }
