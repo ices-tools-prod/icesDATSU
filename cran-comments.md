@@ -7,9 +7,10 @@
 
 0 errors | 0 warnings | 1 note
 
-* This is a new release.
+Maintainer: 'Colin Millar <colin.millar@ices.dk>'
+
+Days since last update: 6
 
 ## Notes
 
-* URL added to description feild in DESCRIPTION
-* Value tag added to datsu_api.Rd
+* Final web sevice added to package.
