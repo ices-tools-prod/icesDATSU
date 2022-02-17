@@ -1,5 +1,5 @@
 Package: icesDatsu
-Version: 1.0.0.9000
+Version: 1.1.0
 Title: Functions to Interact with the ICES Data Submission Utility (DATSU)
 Authors@R: person("Colin", "Millar", role=c("aut","cre"), email="colin.millar@ices.dk")
 Description: Functions to Interact with the ICES Data Submission Utility (DATSU)
