@@ -25,9 +25,11 @@ New submission
 
 Package was archived on CRAN
 
+Possibly misspelled words in DESCRIPTION:
+  DATSU (4:10, 6:75)
+
 CRAN repository db overrides:
   X-CRAN-Comment: Archived on 2024-07-16 for policy violation.
-
 
 * This package was archived due to \donttest examples relying on a web resource.
   This web resource suffered a cyber attack at the same time as rundonttest checks
