@@ -1,7 +1,9 @@
 Package: icesDatsu
 Version: 1.2.0
 Title: Functions to Interact with the ICES Data Submission Utility (DATSU)
-Authors@R: person("Colin", "Millar", role=c("aut","cre"), email="colin.millar@ices.dk")
+Authors@R: c(person("Colin", "Millar", role=c("aut","cre"), email="colin.millar@ices.dk"),
+             person("Carlos", "Pinto", role="aut"),
+             person("Laura Andreea", "Petre", role = "aut"))
 Description: Functions to Interact with the ICES Data Submission Utility (DATSU)
   <https://datsu.ices.dk/web/index.aspx>.
 License: GPL (>= 2)
