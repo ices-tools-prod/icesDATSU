@@ -17,7 +17,11 @@
 #'
 #' \dontrun{
 #' filename <- system.file("test_files/vms_test.csv", package = "icesDatsu")
-#' uploadDatsuFileFireAndForget(filename, 145)
+#' id <- uploadDatsuFileFireAndForget(filename, 145)
+#' getScreeningSessionDetails(id)
+#' messages <- getScreeningSessionMessages(id)
+#' head(messages)
+#'
 #' uploadDatsuFileFireAndForget(filename, 145, sendEmail = FALSE)
 #' }
 #' @export
