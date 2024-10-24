@@ -16,7 +16,7 @@ Details of the session
 This API allows the user to view the details of a specific session.
 }
 \examples{
-\donttest{
+\dontrun{
 getScreeningSessionDetails(10)
 }
 }

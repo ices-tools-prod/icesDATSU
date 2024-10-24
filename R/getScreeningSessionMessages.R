@@ -7,7 +7,7 @@
 #' @return List of the messages for the specified session
 #'
 #' @examples
-#' \donttest{
+#' \dontrun{
 #' messages <- getScreeningSessionMessages(10)
 #' }
 #' @export

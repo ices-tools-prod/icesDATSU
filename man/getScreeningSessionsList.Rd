@@ -20,7 +20,7 @@ The details of the sessions
 This API allows the user to screen a file using the API
 }
 \examples{
-\donttest{
+\dontrun{
 getScreeningSessionsList(145)
 getScreeningSessionsList(145, year = 2020)
 }

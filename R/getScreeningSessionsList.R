@@ -9,7 +9,7 @@
 #' @return The details of the sessions
 #'
 #' @examples
-#' \donttest{
+#' \dontrun{
 #' getScreeningSessionsList(145)
 #' getScreeningSessionsList(145, year = 2020)
 #' }

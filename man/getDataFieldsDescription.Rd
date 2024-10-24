@@ -21,7 +21,7 @@ vocabulary.
 }
 \examples{
 
-\donttest{
+\dontrun{
 getDataFieldsDescription(145)
 getDataFieldsDescription(145, "VE")
 }

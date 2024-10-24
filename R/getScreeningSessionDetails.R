@@ -7,7 +7,7 @@
 #' @return Details of the session
 #'
 #' @examples
-#' \donttest{
+#' \dontrun{
 #' getScreeningSessionDetails(10)
 #' }
 #' @export

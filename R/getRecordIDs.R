@@ -7,7 +7,7 @@
 #' @return List of the supported records for the specified records
 #'
 #' @examples
-#' \donttest{
+#' \dontrun{
 #' getRecordIDs(145)
 #' }
 #' @export

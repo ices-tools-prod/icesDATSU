@@ -5,7 +5,7 @@
 #' @return The list of Datasets that can be screened in DATSU with the IDs
 #'
 #' @examples
-#' \donttest{
+#' \dontrun{
 #' formats <- getDataverIDs()
 #' formats[grep("vms", tolower(formats$description)), ]
 #'}
