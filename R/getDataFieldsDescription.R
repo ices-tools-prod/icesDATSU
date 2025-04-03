@@ -31,7 +31,7 @@ getDataFieldsDescription <- function(datasetverID, recordType = NULL) {
   }
 
   # perform request
-  out <- datsu_get(url)
+  out <- datsu_get_cached(url)
 
   out
 }

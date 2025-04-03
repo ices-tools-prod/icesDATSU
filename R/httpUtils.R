@@ -17,6 +17,8 @@ datsu_get <- function(url, retry = TRUE, quiet = FALSE, verbose = FALSE, content
   }
 }
 
+datsu_get_cached <- datsu_get
+
 #' @importFrom icesConnect ices_post_jwt
 datsu_post <- function(url, body = list(), retry = TRUE, verbose = FALSE, use_token = FALSE) {
 

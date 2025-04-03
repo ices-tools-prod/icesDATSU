@@ -1,5 +1,5 @@
 Package: icesDatsu
-Version: 1.2.0
+Version: 1.2.1
 Title: Functions to Interact with the ICES Data Submission Utility (DATSU)
 Authors@R: c(person("Colin", "Millar", role=c("aut","cre"), email="colin.millar@ices.dk"),
              person("Carlos", "Pinto", role="aut"),
@@ -12,7 +12,10 @@ Suggests: knitr,
           rmarkdown
 Imports: icesConnect (>= 1.0.0),
           httr,
-          jsonlite
+          jsonlite,
+          memoise,
+          cachem,
+          rlang
 Encoding: UTF-8
 URL: https://datsu.ices.dk/web/index.aspx, https://github.com/ices-tools-prod/icesDatsu
 BugReports: https://github.com/ices-tools-prod/icesDatsu/issues
