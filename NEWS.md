@@ -1,3 +1,8 @@
+# icesDatsu 1.2.1 (2025-04-01)
+
+* Add uploadDatsuFile() function to upload files to DATSU.
+* Add caching for get functions to improve performance.
+
 # icesDatsu 1.2.0 (2024-10-24)
 
 * Improved documentation in uploadDatsuFireAndForget().
