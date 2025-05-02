@@ -5,7 +5,7 @@ name](https://ices-tools-prod.r-universe.dev/badges/:name)](https://ices-tools-p
 [![version
 number](https://ices-tools-prod.r-universe.dev/badges/icesDatsu)](https://ices-tools-prod.r-universe.dev/icesDatsu)
 ![branch version
-number](https://img.shields.io/badge/branch_version-1.2.0-blue)
+number](https://img.shields.io/badge/branch_version-1.2.1-blue)
 [![GitHub
 release](https://img.shields.io/github/release/ices-tools-prod/icesDatsu.svg?maxAge=6000)]()
 [![License](https://img.shields.io/badge/license-GPL%20(%3E%3D%202)-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)
